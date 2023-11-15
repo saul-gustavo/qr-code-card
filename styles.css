@@ -84,7 +84,7 @@ body{
 
 @media screen and (max-width: 1200px) {
     .attribution {
-        overflow-y: hidden;
+        margin: auto;
         width: 265px;
         text-align: center;
     }
@@ -129,8 +129,7 @@ body{
     } 
 
     .attribution {
-        overflow-y: auto;
-        width: 203px;
+        width: 285px;
         text-align: center;
     }
    
@@ -174,8 +173,7 @@ body{
     } 
 
     .attribution {
-        overflow-y: auto;
-        width: 203px;
+        width: 300px;
         text-align: center;
     }
    
