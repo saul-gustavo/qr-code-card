@@ -1,0 +1,183 @@
+/* font family */
+@import url(https://fonts.google.com/specimen/Outfit);
+
+:root{
+
+    /* colors */
+    --white-color: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --gryish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+
+    /* font size */
+    --paragraph: 15px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: var(--light-gray);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--paragraph);
+}
+
+.container{
+    max-width: 360px;
+    margin: 0px auto;
+}
+
+.card{
+    background-color: var(--white-color);
+    padding: 18px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.info{
+    margin-top: 1px;
+    padding: 22px 10px;
+}
+
+.title{
+    color: var(--dark-blue);
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.sub{
+    margin-top: 15px;
+    font-weight: 400;
+    color: var(--gryish-blue);
+}
+
+.attribution{
+   font-size: 14px;
+   position: absolute;
+   bottom: 0;
+   padding: 10px 10px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: #7474ff;
+}
+
+.attribution a:hover {
+    transition: 0.3s ease;
+    color: blue;
+}   
+
+/* mobile version */
+
+@media screen and (max-width: 1200px) {
+    .attribution {
+        overflow-y: hidden;
+        width: 265px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }   
+
+    .container {
+        margin: 2rem 20px 2px 20px;
+    }
+
+   .card{
+        height: 478px;
+    }
+
+    .card .qr-imagen{
+        width: 99%;
+    }
+
+    .title{
+        font-weight: 700;
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+
+    .sub{
+        display: block;
+        margin: 0 auto;
+        font-size: 14px;
+        font-weight: 400;
+        width: 229px;
+    } 
+
+    .attribution {
+        overflow-y: auto;
+        width: 203px;
+        text-align: center;
+    }
+   
+}
+
+@media screen and (max-width: 375px) {
+
+    body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }   
+
+    .container {
+        margin: 2rem 20px 2px 20px;
+    }
+
+   .card{
+        height: 478px;
+    }
+
+    .card .qr-imagen{
+        width: 99%;
+    }
+
+    .title{
+        font-weight: 700;
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+
+    .sub{
+        display: block;
+        margin: 0 auto;
+        font-size: 14px;
+        font-weight: 400;
+        width: 229px;
+    } 
+
+    .attribution {
+        overflow-y: auto;
+        width: 203px;
+        text-align: center;
+    }
+   
+}
