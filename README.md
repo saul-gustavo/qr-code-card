@@ -1,3 +1,5 @@
+![qr-card-imagen](https://github.com/Saul-Gustavo/qr-code-card/assets/110861830/263c5c9e-3df1-4af0-bbb0-0608cccb39e0)
+
 Este archivo se modifico el dia jueves 5 de octubre del 2023 a las 12:00pm
 Y se termino de modificar el mismo dia a las 12:34pm
 
