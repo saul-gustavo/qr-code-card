@@ -3,6 +3,7 @@
 This is a solution to the [Results summary component on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
+### Español - Tabla de contenidos
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
@@ -19,14 +20,15 @@ This is a solution to the [Results summary component on Frontend Mentor](https:/
 ## Overview
 
 ### The challenge
-
-Users should be able to:
+### Español - El Desafio
 
 - I built the Frontend Mentor project based on the design image, wrote color codes for each section to make it look similar to the design.
-- The user should see the result of the button styles and their corresponding hover.
+
+## Español
+
+- Construí el proyecto de Frontend Mentor basado en la imagen de diseño, escribí los códigos de colores para cada sección para que se vea similar al diseño.
 
 ### Screenshot
-
 
 ![Screenshot](images/Screenshot-QR-Code.png)
 
@@ -41,15 +43,19 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
+- Diseño semantico con etiquetas HTML5
 - CSS custom properties
-- Flexbox
-- CSS Grid
+- Diseño de colores y formas con CSS3
+- Flexbox 
 - Mobile-first workflow
 
 
 ### What I learned
+In this cahellenge i tested all my knowledge of HTML5 and CSS3, to be able to make the card that contains the QR Code and text, using flexbox or basic CSS3 properties.
+### Lo que aprendi -- Español
 
-Pus en practica todos mis conocimientos, aprendi a centar un container con la propiedad margin 0 auto, tambien funciona con la propeidad display flex
+En este desafio puse a prueba todos mis conocimientos de html y css, para poder hacer la tarjetya que contiene le Codigo QR y el texto, usando flexbox o propiedades basicas de CSS3.
+
 
 ```html
 <div class="container"></div>
@@ -65,17 +71,24 @@ Pus en practica todos mis conocimientos, aprendi a centar un container con la pr
 ### Continued development
 
 In terms of CSS3 properties, I still have more to learn, but with practice, I know I can improve and execute projects more effectively.
+
+## Español
 En este desafio puse en practica todos mis conocimientos que tengo de CSS3 y HTML5, asi con solo ver la imagen me di una idea de como escribirlo en codigo, me gusto el resultado.
 
 ### Useful resources
+I only did it based on my knowledge
 
+## Español
 Solo me base en mis conocimientos para crar este desafio.
 
 ## Author
-
 - Website - [GitHub](https://github.com/Saul-Gustavo)
 - Frontend Mentor - [@Saul-Gustavo](https://www.frontendmentor.io/profile/Saul-Gustavo)
 
 ## Acknowledgments
+I am very happy to have completed this project on the Frontend Mentor platform, I am motivated to continue learning and with practice I will be able to improve.
+
+## Español
+
 Estoy muy contento por hacer terminado este proyecto de la platafroma de Frontend Mentor, estoy motivado a seguir aprendiendo y con la practica podre mejorar.
 
