@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [FrontendMentor.io](https://www.frontendmentor.io/solutions/results-summary-component-Uy8CCeNZo_)
-- Live Site URL: [GitHub Page](https://saul-gustavo.github.io/Saul-Gustavo-result-summary.github.io/)
+- Solution URL: [FrontendMentor.io](https://www.frontendmentor.io/solutions/qr-code-card-yd7Z5KLaBc)
+- Live Site URL: [GitHub Page](https://saul-gustavo.github.io/qr-code-card/)
 
 ## My process
 
@@ -49,33 +49,27 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+Pus en practica todos mis conocimientos, aprendi a centar un container con la propiedad margin 0 auto, tambien funciona con la propeidad display flex
 
 ```html
-<main><!-- main content --></main>
+<div class="container"></div>
 ```
 
 ```css
-.main {
-    max-width: 46em;
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    background-color: var(--white);
-    box-shadow: var(--light-lavender) 0px 7px 29px 0px;
-    border-radius: 20px;
+.container{
+    max-width: 360px;
+    margin: 0px auto;
 }
 ```
 
 ### Continued development
 
 In terms of CSS3 properties, I still have more to learn, but with practice, I know I can improve and execute projects more effectively.
+En este desafio puse en practica todos mis conocimientos que tengo de CSS3 y HTML5, asi con solo ver la imagen me di una idea de como escribirlo en codigo, me gusto el resultado.
 
 ### Useful resources
 
-- [Summary Video](https://www.youtube.com/watch?v=KqFAs5d3Yl8&t=903s) - Thanks to this video, I gained a clearer understanding of how to design the card.
+Solo me base en mis conocimientos para crar este desafio.
 
 ## Author
 
